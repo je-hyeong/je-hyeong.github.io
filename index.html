@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!-- html -->
+<html>
+    <head>
+        <title>EX5</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style>
+        .bg-1{
+            background-color:yellow;
+            color:red;
+        }
+        .bg-2{
+            background-color:darkgrey;
+            color:black;
+        }
+        .bg-3{
+            background-color:royalblue;
+            color:burlywood;
+        }
+        .bg-4{
+           background-color:greenyellow;
+            color :hotpink;
+        }
+        .container-fluid{
+            padding-top : 70px;
+            padding-bottom : 70px;
+        }
+        .navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+ margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: red !important;
+} 
+    body{
+        line-height:1.8;
+        color:#f5f6;
+    
+    }
+    p{
+        font-size : 16px;
+    }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"></div>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                      </button>
+                <a class="navbar-brand" href="#">HELLO!!!</a>
+              </div>
+              <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">WHO</a></li>
+                <li><a href="#">WHERE</a></li>
+                <li><a href="#">WHAT</a></li>
+              </ul>
+            </div>
+          </nav>
+        <div class="container-fluid bg-1 text-center">
+            <h3>Who Am I?</h3>
+            <img src="bird.jpg" alt="Bird" class="img-circle img-responsive" style = "display:inline">
+            <h3>"I'm an adventurer"
+            </h3>
+        </div>
+        <div class="container-fluid bg-2 text-center">
+            <h3>What Am I?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin lacinia pretium nulla ut dictum. Praesent efficitur ultricies nibh, in rhoncus enim laoreet in. Pellentesque malesuada vitae sem et eleifend. Vestibulum fringilla lectus eget risus lacinia, et placerat urna vestibulum. Donec volutpat erat nec luctus iaculis. Donec at dui lectus. Duis dapibus nunc vel consectetur condimentum. Etiam libero neque, suscipit non luctus quis, bibendum vel ante. Sed pulvinar mi ac leo tincidunt accumsan. Sed placerat commodo tincidunt. Vivamus pulvinar cursus justo ac placerat. Donec eget tellus mi.</p>
+            <a href="#" class ="btn btn-default btn-lg">
+               <span class = "glyphicon glyphicon-search"></span>Search</a>
+        </div>
+        <div class="container-fluid bg-3 text-center">
+            <h3>Where To Find ME</h3>
+            <div class="row">
+                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.  <img src = "birds1.jpg" alt="bird1" class = "img-responsive" style= "width:100%"> </div>
+                
+                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<img src = "birds2.jpg" alt = "Birds2" class = "img-responsive" style= "width:100%"> </div>
+                    
+                <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <img src = "birds3.jpg" alt = "Birds3" class = "img-responsive"style= "width:100%"></div>
+                   
+            </div>
+
+        </div>
+    </div>
+    <footer class = "container-fluid bg-4 text-center">
+        <p>Made by H.J.H<br>
+        <a href = "http://seoultech.ac.kr">서울과학기술대학교</a></p>
+    </footer>
+    </body>
+</html>
